@@ -5,12 +5,11 @@
 /**
  * prompt - Print the prompt
  *
- * @mode: If the mode is NON_INTERACTIVE dont print
- *
+ * @info: Struct of general information
  **/
-void prompt(int mode)
+void prompt(general_t *info)
 {
-	if (mode == NON_INTERACTIVE)
+	if (info->mode == NON_INTERACTIVE)
 		return;
 
 	print("$ ");
@@ -43,10 +42,11 @@ char *read_prompt()
 /**
  * start_prompt - Loop reading text
  *
- * @mode: Mode for start the shell
+ * @info: Struct of general information
  *
+ * Return: Buffer readed or NULL if EOF was found
  **/
-void start_prompt(int mode)
+void start_prompt(general_t *info)
 {
 	char *buff;
 	char **arguments;
@@ -54,7 +54,7 @@ void start_prompt(int mode)
 
 	while (1)
 	{
-		prompt(mode);
+		prompt(info);
 
 		buff = read_prompt();
 		if (buff == NULL)

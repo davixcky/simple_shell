@@ -9,7 +9,7 @@
 #define INTERACTIVE      1
 
 #define PERMISSIONS      1
-#define NON_PERMISSIONS  -1
+#define NON_PERMISSIONS -1
 
 #define _FILE            1
 #define NON_FILE         0

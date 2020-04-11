@@ -10,5 +10,6 @@
  **/
 void start(general_t *info)
 {
-	start_prompt(info->mode);
+	start_prompt(info);
 }
+

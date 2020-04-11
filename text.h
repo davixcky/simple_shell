@@ -9,8 +9,8 @@
 #include "general.h"
 
 /* text.c */
-void start_prompt(int mode);
-void prompt(int mode);
+void start_prompt(general_t *info);
+void prompt(general_t *info);
 char *read_prompt();
 
 /* utils_text.c */

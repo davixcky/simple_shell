@@ -3,9 +3,10 @@
 
 #include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "general.h"
 
-void start(int mode);
+void start(general_t *info);
 
 #endif /* SHELL_H */

@@ -1,3 +1,4 @@
+#include "general.h"
 #include "shell.h"
 #include "text.h"
 
@@ -5,9 +6,9 @@
  * start - Handle the mode
  * Description: Mode can be INTERACTIVE or NON_INTERACTIVE
  *
- * @mode: Type of shell to open
+ * @info: Struct of information about the shell
  **/
-void start(int mode)
+void start(general_t *info)
 {
-	start_prompt(mode);
+	start_prompt(info->mode);
 }

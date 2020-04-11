@@ -14,7 +14,7 @@
 #define _FILE            1
 #define NON_FILE         0
 
-typedef struct __attribute__((__packed__)) general_info
+typedef struct __attribute__((__packed__))
 {
 	int argc;
 	char **argv;

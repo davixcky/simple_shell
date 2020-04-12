@@ -1,5 +1,6 @@
 #include "commands.h"
 #include "general.h"
+#include <unistd.h>
 
 /**
  * is_executable - Check if a filename have permissions
@@ -13,12 +14,23 @@
 int is_executable(char *filename)
 {
 	int i;
+	struct stat stats;
 
-	if (!access(filename, X_OK))
+	/*if (!access(filename, X_OK))
 		i = PERMISSIONS;
-	else
+		else
 		i = NON_PERMISSIONS;
+		*/
 
+	if (stat(filename, &stats) == 0)
+	{
+		if (stats.st_mode & X_OK)
+			return (PERMISSIONS);
+		else
+			return (NON_PERMISSIONS);
+	}
+
+	i = NON_FILE;
 	return (i);
 }
 

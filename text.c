@@ -59,16 +59,16 @@ void start_prompt(general_t *info)
 		buff = read_prompt();
 		if (buff == NULL)
 		{
-			_putchar('\n');
+			print(info->mode == INTERACTIVE ? "exit\n" : "");
 			break;
 		}
 
+		info->n_commands++;
 		if (buff[0] != '\n')
 		{
 			arguments = split_words(buff, " \t\n");
-			print(arguments[0]);
 
-			analyze(arguments);
+			analyze(arguments, info);
 			/* Free memory */
 			for (tmp = arguments; *tmp; ++tmp)
 				free(*tmp);

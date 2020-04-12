@@ -6,15 +6,16 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/wait.h>
-
 #include <errno.h>
 
+#include "general.h"
 #include "text.h"
+#include "error.h"
 
 extern char **environ;
 
 /* commands.c */
-void analyze(char **arguments);
+void analyze(char **arguments, general_t *info);
 
 /* permissions.c */
 

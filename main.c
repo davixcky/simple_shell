@@ -11,10 +11,10 @@
  **/
 int main(int argc, char **argv)
 {
+	general_t *info;
+
 	(void) argc;
 	(void) argv;
-
-	general_t *info;
 
 	info = malloc(sizeof(general_t));
 	if (info == NULL)
@@ -23,11 +23,13 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
+	info->n_commands = 0;
 	info->argc = argc;
 	info->argv = argv;
-	info->mode = isatty(isatty(STDIN) == INTERACTIVE);
+	info->mode = isatty(STDIN) == INTERACTIVE;
 	start(info);
 
+	free(info);
 	return (0);
 }
 

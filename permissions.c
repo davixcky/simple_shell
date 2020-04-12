@@ -16,12 +16,6 @@ int is_executable(char *filename)
 	int i;
 	struct stat stats;
 
-	/*if (!access(filename, X_OK))
-		i = PERMISSIONS;
-		else
-		i = NON_PERMISSIONS;
-		*/
-
 	if (stat(filename, &stats) == 0)
 	{
 		if (stats.st_mode & X_OK)

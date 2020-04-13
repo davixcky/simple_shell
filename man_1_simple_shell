@@ -102,7 +102,7 @@ strtok(3), wait(2), waitpid(2), wait3(2), wait4(2), write(2).
 See AUTHORS
 
 .SH AUTHORS
-.B avid Orozco <david.orozco@holbertonshcool.com>
+.B David Orozco <1532@holbertonshcool.com>
 .br
-.B Hugo Santiago <hugo.santiago@holbertonschool.com>
+.B Hugo Santiago <1547@holbertonschool.com>
 .br

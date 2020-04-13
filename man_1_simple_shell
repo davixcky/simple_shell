@@ -46,7 +46,7 @@ This variable shall represent an absolute pathname of the current working direct
 .SH ASYNCHRONOUS EVENTS
  The sh utility shall take the standard action for all signals. If the shell is interactive, SIGINT signals received during command line editing shall be handled as described in the EXTENDED DESCRIPTION, and SIGINT signals received at other times shall be caught but no action performed.
 
-.SH STOUT
+.SH STDOUT
 See \fBSTDERR
 
 .SH STDERR

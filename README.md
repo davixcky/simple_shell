@@ -1,9 +1,6 @@
-<p align="center">
- <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
- <h1 align="center">kayman-shell</h1>
- </p>
-
-<p align="center"> 
+<p align="center"><img src= "https://i.imgur.com/vSDB4vm.png" /></p>
+<p align="center"> <img src = "HTTPS://HOTEMOJI.COM/IMAGES/EMOJI/8/1XBDIGIQLOC38.PNG" /></p>
+ 
 <img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
 <img src="https://img.shields.io/badge/Advanced-100%25-green" />
 <img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    

@@ -1,5 +1,5 @@
 <p align="center"><img src= "https://i.imgur.com/vSDB4vm.png" /></p>
-<p align="center"> <img src = "HTTPS://HOTEMOJI.COM/IMAGES/EMOJI/8/1XBDIGIQLOC38.PNG" /></p>
+<p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
  
 <img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
 <img src="https://img.shields.io/badge/Advanced-100%25-green" />

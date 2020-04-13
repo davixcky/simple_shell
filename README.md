@@ -2,10 +2,18 @@
 <p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
 
 <p align="center"> 
-<img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
-<img src="https://img.shields.io/badge/Advanced-100%25-green" />
-<img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    
-<img src="https://img.shields.io/badge/Cohort-11-red" />
+ <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
+        <img src="https://img.shields.io/badge/Mandatory-25%25-blue" />
+</a>
+ <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
+       <img src="https://img.shields.io/badge/Advanced-0%25-green" />
+ </a>
+ <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+		 <img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />
+</a>
+ <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
+        <img src="https://img.shields.io/badge/Cohort-11-red" />
+</a>    
 </p>
 
 ##

@@ -58,11 +58,11 @@ None
 .SH APPLICATION USAGE
 k_shell can be executed int two modes:
 
-.B *interactive
-./hsh
+.B *Interactive mode:
+.br ./hsh
 
-.B *Not interactive
-echo "/bin/ls" | ./hsh 
+.B *Non interactive mode:
+.br echo "/bin/ls" | ./hsh 
 
 .SH EXAMPLES
 .B 1. Non interactice mode example:

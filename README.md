@@ -24,7 +24,11 @@ This is our litle tiny Shell named **k_shell**. If you want to learn about k_she
 
 ## Description :triangular_ruler:
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+This is a shell written in `c` for final project of `Holberton School`. `k_shell` its based on `sh` and support just the main functionalities.
+
+The project structure can't have source inside directories, because the only way for compile in this case is `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
+
+This shell receive the name of `K-shell`, because represent our region, `la costa`. `K-shell` stands for `Kayman` that means `caiman` the animal of this region, so represent our culture and our live style. And the other part, `shell` is just the postfix
 
 ## Installation :floppy_disk:
 

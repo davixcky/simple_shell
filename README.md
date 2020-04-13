@@ -1,12 +1,22 @@
-![alt text](https://command-not-found.com/og/1200x628/cmd/kshell.png)
+<p align="center">
+ <img src= "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/106/crocodile_1f40a.png" height="130">
+ <h1 align="center">kayman-shell</h1>
+ </p>
 
-# k_shell :rocket:
+<p align="center"> 
+<img src = "https://img.shields.io/badge/Mandatory-100%25-blue" />
+<img src="https://img.shields.io/badge/Advanced-100%25-green" />
+<img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />    
+<img src="https://img.shields.io/badge/Cohort-11-red" />
+</p>
 
-*NO OLVIDAR INCLUIR BOTONES*
 
-?style=for-the-badge&logo=appveyor
 
-This our litel tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll**
+##
+
+# k_shell:crocodile:
+This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
+
 
 ## Contents :clipboard:
 
@@ -46,7 +56,5 @@ You can delete the current file by clicking the **Remove** button in the file ex
 ## File Structure :file_folder:
 
 You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
 
 

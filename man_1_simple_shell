@@ -28,18 +28,18 @@ The script executes one or more commands that require input from standard input 
 Input files not supported
 
 .SH ENVIROMENT VARIABLES
-ENV  This variable, when and only when an interactive shell is invoked  and the resulting value shall be used as a pathname of a file containing shell commands to execute in the current environment. The file need not be executable. If the expanded value of ENV is not an absolute pathname, the results are unspecified. ENV shall be ignored if the real and effective user IDs or real and effective group IDs of the process are different.
+.IP *ENV  This variable, when and only when an interactive shell is invoked  and the resulting value shall be used as a pathname of a file containing shell commands to execute in the current environment. The file need not be executable. If the expanded value of ENV is not an absolute pathname, the results are unspecified. ENV shall be ignored if the real and effective user IDs or real and effective group IDs of the process are different.
 
-.IP * HOME
+.IP *HOME
 Determine the pathname of the user's home directory.
 
-.IP * LANG
+.IP *LANG
 Provide a default value for the internationalization variables that are unset or null.
  
-.IP * PATH
+.IP *PATH
 Establish a string formatted 
 
-.IP * PWD
+.IP *PWD
 This variable shall represent an absolute pathname of the current working directory. Assignments to this variable may be ignored.
  
 
@@ -54,10 +54,6 @@ Except as otherwise stated (by the descriptions of any invoked utilities or in i
 
 .SH OUTPUT FILES
 None
-
-.SH EXTENDED DESCRIPTION
-
-.SH EXIT STATUS
 
 .SH APPLICATION USAGE
 k_shell can be executed int two modes:

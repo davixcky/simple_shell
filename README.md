@@ -14,24 +14,13 @@
 This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can read me. This project was created to **Holberton Schooll.**
 
 
-## Contents :clipboard:
+## Table of contents :clipboard:
 
- - man.c
- - commands.c
- - commands.h
- - enviroment.c
- - execute.c
- - general.h
- - permissions.c
- - printers.c
- - printers_out.c
- - shell.c
- - start.c
- - text.c
- - text.h
- - tokenizations.c
- - utils_text.c
- - .gitignore
+ - [Description](https://github.com/davixcky/simple_shell#description-triangular_ruler)
+ - [Usage](https://github.com/davixcky/simple_shell#usage-hammer)
+ - [Example](https://github.com/davixcky/simple_shell#example-computer)
+ - [Installation](https://github.com/davixcky/simple_shell#installation-floppy_disk)
+ - [File Structure](https://github.com/davixcky/simple_shell#file-structure-file_folder)
 
 ## Description :triangular_ruler:
 

@@ -1,15 +1,12 @@
-npage for K-shell. Simple shell project to Holberton School.
+.\" manpage for K-shell. Simple shell project to Holberton School.
 .\" Contact AUTHORS to correct errors or typos.
-.TH k_shell 0 "13 April 2020" "KAYMAN-SHELL MAN PAGE"
+.TH k_shell 0 "13 April 2020" "1.0" "Kayman-shell man page"
 
 .SH NAME
 k_shell \- Kayman-shell
 
 .SH PROLOG
 Kayman-shell (k_shell) it is a tiny but efficient interface line comands developed for Holberton School students.The Linux implementation of this interface may differ (consult our wiki page ##include link## for a correct installations), or the interface may not be implemented on Linux.
-
-.SH NAME
-ksh - k_shell, the tiny but efficient  standard command language interpreter.
 
 .SH SYSNOPSIS
 k_shell
@@ -27,20 +24,23 @@ Operands don't shall be supported by k_shell
 The standard input shall be used if one of the following is true:
 The script executes one or more commands that require input from standard input (such as a read command that does not redirect its input).
 
-
 .SH INPUT FILES
 Input files not supported
 
 .SH ENVIROMENT VARIABLES
 ENV  This variable, when and only when an interactive shell is invoked  and the resulting value shall be used as a pathname of a file containing shell commands to execute in the current environment. The file need not be executable. If the expanded value of ENV is not an absolute pathname, the results are unspecified. ENV shall be ignored if the real and effective user IDs or real and effective group IDs of the process are different.
 
-.IP * HOME Determine the pathname of the user's home directory.
+.IP * HOME
+Determine the pathname of the user's home directory.
 
-.IP * LANG Provide a default value for the internationalization variables that are unset or null.
+.IP * LANG
+Provide a default value for the internationalization variables that are unset or null.
  
-.IP * PATH  Establish a string formatted 
+.IP * PATH
+Establish a string formatted 
 
-.IP * PWD This variable shall represent an absolute pathname of the current working directory. Assignments to this variable may be ignored.
+.IP * PWD
+This variable shall represent an absolute pathname of the current working directory. Assignments to this variable may be ignored.
  
 
 .SH ASYNCHRONOUS EVENTS
@@ -94,8 +94,9 @@ $
 None
 
 .SH SEE ALSO
-acces(2), chdir(2), close (2), closedir(2), execve(2), exit(3), _exit(2), fflush(3), fork(2), free(3), getcwd(3)
-getline(3), isatty(3), kill(2), malloc(3) open(2) opendir(3) perror(3) read(2) readdir(3) signal(2) stat(2) lstat(2) fstat(2) strtok(3) wait(2) waitpid(2) wait3(2) wait4(2) write(2)
+acces(2), chdir(2), close (2), closedir(2), execve(2), exit(3), _exit(2), fflush(3), fork(2), free(3), getcwd(3), getline(3) 
+isatty(3), kill(2), malloc(3), open(2), opendir(3), perror(3), read(2), readdir(3), signal(2), stat(2), lstat(2), fstat(2) 
+strtok(3), wait(2), waitpid(2), wait3(2), wait4(2), write(2).
 
 .SH COPYRIGHT
 See AUTHORS

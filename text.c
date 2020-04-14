@@ -68,7 +68,7 @@ void start_prompt(general_t *info)
 		{
 			arguments = split_words(buff, " \t\n");
 
-			analyze(arguments, info);
+			analyze(arguments, info, buff);
 			/* Free memory */
 			for (tmp = arguments; *tmp; ++tmp)
 				free(*tmp);

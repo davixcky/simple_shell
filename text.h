@@ -17,6 +17,8 @@ char *read_prompt();
 int _strlen(char *msg);
 char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
+char *_strdup(char *str);
+int _strcmp(char *str1, char *str2);
 
 /* utils_text2.c */
 char *to_string(int number);

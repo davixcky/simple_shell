@@ -59,3 +59,53 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
+
+/**
+ * _strdup - Pointer to a newly allocated space in memory
+ *
+ * @str: String to copy
+ *
+ * Return: String copied
+ **/
+char *_strdup(char *str)
+{
+	int size, i;
+	char *dest;
+
+	if (str == NULL)
+		return (NULL);
+
+	size = _strlen(str) + 1;
+	dest = malloc(size * sizeof(char));
+	if (dest == NULL)
+		return (NULL);
+
+	for (i = 0; i < size; i++)
+		*(dest + i) = *(str + i);
+
+	*(dest + i) = 0;
+
+	return (dest);
+}
+
+/**
+ * _strcmp - Compare two strings
+ *
+ * @s1: String 1
+ * @s2: String 2
+ *
+ * Return: Integer
+ */
+int _strcmp(char *s1, char *s2)
+{
+	int i;
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+	}
+
+	return (0);
+}
+

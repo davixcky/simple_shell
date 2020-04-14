@@ -51,7 +51,6 @@ void error(general_t *info)
 	aux = _strcat(aux, ": ");
 	aux = _strcat(aux, number);
 
-	/* program: line [n]: command: message */
 	message = join_words(aux, info->command, message, ": ");
 	print_err(message);
 

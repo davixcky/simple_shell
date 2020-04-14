@@ -30,6 +30,7 @@ typedef struct __attribute__((__packed__))
 	int error_code;           /* Error code for error message */
 	char *command;            /* Command to execute */
 	int n_commands;           /* Number of commands executed */
+	char *value_path;
 } general_t;
 
 typedef struct __attribute__((__packed__))

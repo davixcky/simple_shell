@@ -15,16 +15,17 @@
 extern char **environ;
 
 /* commands.c */
-void analyze(char **arguments, general_t *info);
+void analyze(char **arguments, general_t *info, char *buff);
 
 /* permissions.c */
-
+int is_executable(char *filename);
 int is_file(char *command);
 
 /* environment.c */
 char *_getenv(const char *name);
+char *which(char *filename);
 
 /* execute.c */
-void execute(char *commands, char **arguments);
+void execute(char *commands, char **arguments, general_t *info, char *buff);
 
 #endif /* COMMANDS_H */

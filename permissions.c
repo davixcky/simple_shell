@@ -1,6 +1,5 @@
 #include "commands.h"
 #include "general.h"
-#include <unistd.h>
 
 /**
  * is_executable - Check if a filename have permissions

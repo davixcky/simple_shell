@@ -1,15 +1,15 @@
 #include "commands.h"
 #include "general.h"
 #include "text.h"
-#include <errno.h>
 
 /**
  * analyze - Analyze	the arguments
  *
  * @arguments: Commands and arguments to execute
  * @info: General information about the shell
+ * @buff: Line readed
  **/
-void analyze(char **arguments, general_t *info)
+void analyze(char **arguments, general_t *info, char *buff)
 {
 	char *cmd;
 	int status;
@@ -30,7 +30,16 @@ void analyze(char **arguments, general_t *info)
 
 	if (status == 1)
 	{
-		execute(cmd, arguments);
+		execute(cmd, arguments, info, buff);
+		return;
+	}
+
+	info->value_path = which(cmd);
+	if (info->value_path != NULL)
+	{
+		execute(info->value_path, arguments, info, buff);
+		if (info->value_path != NULL)
+			free(info->value_path);
 		return;
 	}
 

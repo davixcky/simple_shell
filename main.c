@@ -13,9 +13,6 @@ int main(int argc, char **argv)
 {
 	general_t *info;
 
-	(void) argc;
-	(void) argv;
-
 	info = malloc(sizeof(general_t));
 	if (info == NULL)
 	{

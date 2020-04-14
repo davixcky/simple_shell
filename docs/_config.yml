@@ -1,9 +1,18 @@
-remote_theme: b2a3e8/jekyll-theme-console
+title: 'k_shell'
+description: "Simple Shell"
+baseurl: "/jekyll-theme-console"
+url: "http://simple-shell.me"
+
 header_pages:
   - index.md
+  - peter.md
   - about.md
+  - contact.md
 
-style: dark # dark (default) or light
+style: dark
 
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console

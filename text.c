@@ -51,15 +51,20 @@ void start_prompt(general_t *info)
 	char *buff;
 	char **arguments;
 	char **tmp;
+	char *path;
 
 	while (1)
 	{
 		prompt(info);
 
+		path = _getenv("PATH");
+		is_current_path(path, info);
+
 		buff = read_prompt();
 		if (buff == NULL)
 		{
 			print(info->mode == INTERACTIVE ? "exit\n" : "");
+			free(path);
 			break;
 		}
 
@@ -69,6 +74,7 @@ void start_prompt(general_t *info)
 			arguments = split_words(buff, " \t\n");
 
 			analyze(arguments, info, buff);
+
 			/* Free memory */
 			for (tmp = arguments; *tmp; ++tmp)
 				free(*tmp);
@@ -78,6 +84,7 @@ void start_prompt(general_t *info)
 		}
 
 		free(buff);
+		free(path);
 	}
 
 }

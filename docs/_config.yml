@@ -4,6 +4,6 @@ header_pages:
   - about.md
 
 style: dark # dark (default) or light
-listen_for_clients_preferred_style: true # true or false (default)
+
 
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'

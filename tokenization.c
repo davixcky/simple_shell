@@ -28,7 +28,7 @@ char **split_words(char *line, const char *sep)
 			words = tmp;
 			++n;
 
-			words[n - 2] = malloc(strlen(token) + 1);
+			words[n - 2] = malloc(_strlen(token) + 1);
 			if (words == NULL)
 			{
 				free(tmp);

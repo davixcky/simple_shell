@@ -34,7 +34,10 @@ void analyze(char **arguments, general_t *info, char *buff)
 		return;
 	}
 
-	info->value_path = which(cmd);
+	if (current_directory(cmd, arguments, buff, info) == _TRUE)
+		return;
+
+	info->value_path = which(cmd, info);
 	if (info->value_path != NULL)
 	{
 		execute(info->value_path, arguments, info, buff);
@@ -43,9 +46,7 @@ void analyze(char **arguments, general_t *info, char *buff)
 		return;
 	}
 
-	errno = 2;
 	info->error_code = _CODE_CMD_NOT_EXISTS;
 	error(info);
-
 }
 

@@ -1,6 +1,9 @@
 #ifndef GENERAL_H
 #define GENERAL_H
 
+#define _TRUE            1
+#define _FALSE           0
+
 #define STDIN            0
 #define STDOUT           1
 #define STDERR           2
@@ -30,7 +33,8 @@ typedef struct __attribute__((__packed__))
 	int error_code;           /* Error code for error message */
 	char *command;            /* Command to execute */
 	int n_commands;           /* Number of commands executed */
-	char *value_path;
+	char *value_path;         /* Path of a command */
+	int is_current_path;      /* Check if is current path or not */
 } general_t;
 
 typedef struct __attribute__((__packed__))

@@ -12,7 +12,6 @@
  **/
 int is_executable(char *filename)
 {
-	int i;
 	struct stat stats;
 
 	if (stat(filename, &stats) == 0)
@@ -23,8 +22,7 @@ int is_executable(char *filename)
 			return (NON_PERMISSIONS);
 	}
 
-	i = NON_FILE;
-	return (i);
+	return (NON_FILE);
 }
 
 /**

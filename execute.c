@@ -34,3 +34,29 @@ void execute(char *command, char **arguments, general_t *info, char *buff)
 	}
 }
 
+
+/**
+ * current_directory - Execute the command if the order require
+ *
+ * @cmd: Command to execute
+ * @arguments: Arguments of the @cmd
+ * @buff: Line readed
+ * @info: General info about the shell
+ *
+ * Return: Status of the operations
+ **/
+int current_directory(char *cmd, char **arguments, char *buff, general_t *info)
+{
+
+	if (info->is_current_path == _FALSE)
+		return (_FALSE);
+
+	if (is_executable(cmd) == PERMISSIONS)
+	{
+		execute(cmd, arguments, info, buff);
+		return (_TRUE);
+	}
+
+	return (_FALSE);
+}
+

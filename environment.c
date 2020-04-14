@@ -2,6 +2,7 @@
 #include "general.h"
 #include "text.h"
 #include <string.h>
+#include <sys/cdefs.h>
 
 /**
  * _getenv - Get a environment variable
@@ -53,15 +54,19 @@ char *_getenv(const char *name)
 
 /**
  * which - Find the directory needed
+ *
  * @filename: Command received
+ * @info: General info about the shell
  *
  * Return: pointer string with found path or NULL in failure.
  */
-char *which(char *filename)
+char *which(char *filename, general_t *info)
 {
 	char *path, *tmp_path, *token;
 	char *slash;
 	int size;
+
+	(void) info;
 
 	path = _getenv("PATH");
 	if (path == NULL)
@@ -95,5 +100,22 @@ char *which(char *filename)
 	free(slash);
 
 	return (NULL);
+}
+
+/**
+ * is_current_path -  Check the order of the path
+ *
+ * @path: PATH to check
+ * @info: General infor about the shell
+ **/
+void is_current_path(char *path, general_t *info)
+{
+	info->is_current_path = _FALSE;
+
+	if (path == NULL)
+		return;
+
+	if (path[0] == ':')
+		info->is_current_path = _TRUE;
 }
 

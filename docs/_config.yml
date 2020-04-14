@@ -1,7 +1,5 @@
 title: 'k_shell'
 description: "Simple Shell"
-baseurl: "/jekyll-theme-console"
-url: "http://simple-shell.me"
 
 header_pages:
   - index.md

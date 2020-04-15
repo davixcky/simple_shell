@@ -3,7 +3,7 @@ description: "Simple Shell"
 
 header_pages:
   - index.md
-  - file_I/O.md
+  - file_IO.md
   - about.md
   - contact.md
 

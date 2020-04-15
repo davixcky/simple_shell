@@ -36,7 +36,7 @@ char **split_words(char *line, const char *sep)
 			}
 
 			if (words[n - 2] != NULL)
-				strcpy(words[n - 2], token);
+				_strcpy(words[n - 2], token);
 
 			token = strtok(NULL, sep);
 

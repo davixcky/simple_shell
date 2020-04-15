@@ -1,7 +1,7 @@
 ---
-title: /child_and_process
+title: /fork
 layout: page
-permalink: /child_and_process
+permalink: /fork
 ---
 
 

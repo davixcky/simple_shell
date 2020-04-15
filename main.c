@@ -21,6 +21,7 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
+	info->status_code = 0;
 	info->n_commands = 0;
 	info->argc = argc;
 	info->argv = argv;

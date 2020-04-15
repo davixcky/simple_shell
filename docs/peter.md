@@ -1,7 +1,7 @@
 ---
-title: /peter
+title: /files_I/O
 layout: page
-permalink: /peter
+permalink: /files_I/O
 ---
 
 # Peter principle

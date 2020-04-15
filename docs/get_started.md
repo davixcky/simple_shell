@@ -1,7 +1,7 @@
 ---
-title: /files_I/O
+title: /get_started
 layout: page
-permalink: /files_I/O
+permalink: /get_started
 ---
 
 # file_I/O

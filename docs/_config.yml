@@ -3,12 +3,12 @@ description: "Simple Shell"
 
 header_pages:
   - index.md
-  - file_IO.md
+  - get_started.md
+  - I/O.md
   - signals.md
-  - environ_var.md
-  - child_and_process.md
-  - shell_basic.md
-  - example l -ls.md
+  - env.md
+  - fork.md
+  - example.md
 
 style: dark
 

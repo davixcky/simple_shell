@@ -7,6 +7,7 @@
 #include <string.h>
 
 #include "general.h"
+#include "memory.h"
 
 /* text.c */
 void start_prompt(general_t *info);

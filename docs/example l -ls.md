@@ -1,7 +1,7 @@
 ---
-title: /peter
+title: /example
 layout: page
-permalink: /peter
+permalink: /test
 ---
 
 # Peter principle

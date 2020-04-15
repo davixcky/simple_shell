@@ -3,13 +3,16 @@ description: "Simple Shell"
 
 header_pages:
   - index.md
-  - peter.md
-  - about.md
-  - contact.md
+  - file_IO.md
+  - signals.md
+  - environ_var.md
+  - child_and_process.md
+  - shell_basic.md
+  - example l -ls.md
 
 style: dark
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'follow us on <a href="https://github.com/davixcky/simple_shell/" target="_blank">github</a>'
 
 # Build settings
 markdown: kramdown

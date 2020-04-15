@@ -1,7 +1,7 @@
 ---
-layout: page
-title: /about
-permalink: /about/
+layout: home
+title: /signals
+permalink: /signals
 ---
 
 # jekyll-theme-console

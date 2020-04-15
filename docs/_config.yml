@@ -4,6 +4,7 @@ description: "Simple Shell"
 header_pages:
   - index.md
   - get_started.md
+  - basic.md
   - I/O.md
   - signals.md
   - env.md

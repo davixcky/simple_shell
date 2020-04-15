@@ -1,5 +1,10 @@
 hsh
 ls
-test
 vgcore*
 a.out
+ERROR
+OUTPUT
+cloc_file
+file
+test*
+.idea

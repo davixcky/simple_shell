@@ -1,7 +1,7 @@
 ---
-title: /environ_var
+title: /env
 layout: home
-permalink: /environ_var
+permalink: /env
 ---
 
 # Environment_variables

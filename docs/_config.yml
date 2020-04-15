@@ -4,7 +4,7 @@ description: "Simple Shell"
 header_pages:
   - index.md
   - file_IO.md
-  - about.md
+  - signals.md
   - contact.md
 
 style: dark

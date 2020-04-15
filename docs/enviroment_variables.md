@@ -1,5 +1,5 @@
 ---
-title: /Enviroment_variables
+title: /enviroment_variables
 layout: home
 permalink: /Enviroment_variables
 ---

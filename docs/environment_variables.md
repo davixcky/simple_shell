@@ -1,10 +1,10 @@
 ---
-title: /enviroment_variables
+title: /environment_variables
 layout: home
-permalink: /enviroment_variables
+permalink: /environment_variables
 ---
 
-# Enviroment_variables
+# Environment_variables
 
 <form>
   <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">

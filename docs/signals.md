@@ -4,12 +4,16 @@ title: /signals
 permalink: /signals
 ---
 
-# jekyll-theme-console
+# What is a signal at C?
 
-A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
-You can find the source code for this theme at [github.com/b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console).
+A signal is a **"generated interrupt"** that a process can send to another process.
 
 ## What is jekyll?
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under an open source license.
-<br />Instead of using databases, Jekyll takes the content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server. Jekyll is the engine behind GitHub Pages, a GitHub feature that allows users to host websites based on their GitHub repositories for no additional cost.
+The signs are identified by an integer number. We will not detail all of them, but we will detail some of the most interesting for the programmer:
+
+| Signal_name     No.                            |Purpose                        |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|

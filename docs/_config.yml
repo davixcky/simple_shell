@@ -7,6 +7,8 @@ header_pages:
   - signals.md
   - environment_variables.md
   - child_and_process.md
+  - shell_basic.md
+  - example l -ls.md
 
 style: dark
 

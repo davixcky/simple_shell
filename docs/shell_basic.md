@@ -1,6 +1,6 @@
 ---
 title: /shell_basic
-layout: page
+layout: home
 permalink: /shell_basic
 ---
 

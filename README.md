@@ -8,8 +8,8 @@
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
        <img src="https://img.shields.io/badge/Advanced-0%25-green" />
  </a>
- <a href="simple-shell.me" alt="Contributors">
-		 <img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />
+ <a href="http://simple-shell.me/" alt="Contributors">
+		 <img src="https://img.shields.io/badge/Wiki-html%3A%2F%2F-orange" />
 </a>
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
         <img src="https://img.shields.io/badge/Cohort-11-red" />

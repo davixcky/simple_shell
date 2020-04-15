@@ -1,7 +1,7 @@
 ---
-title: /child_and_process
+title: /example
 layout: page
-permalink: /child_and_process
+permalink: /test
 ---
 
 # Peter principle

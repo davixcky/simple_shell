@@ -5,7 +5,7 @@ header_pages:
   - index.md
   - file_IO.md
   - signals.md
-  - contact.md
+  - environment_variables.md
 
 style: dark
 

@@ -8,7 +8,7 @@
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
        <img src="https://img.shields.io/badge/Advanced-0%25-green" />
  </a>
- <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+ <a href="simple-shell.me" alt="Contributors">
 		 <img src="https://img.shields.io/badge/Wicky__page-html%3A%2F%2F-orange" />
 </a>
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">

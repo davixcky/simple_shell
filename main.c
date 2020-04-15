@@ -12,6 +12,7 @@
 int main(int argc, char **argv)
 {
 	general_t *info;
+	int status_code;
 
 	info = malloc(sizeof(general_t));
 	if (info == NULL)
@@ -26,7 +27,10 @@ int main(int argc, char **argv)
 	info->mode = isatty(STDIN) == INTERACTIVE;
 	start(info);
 
+	status_code = info->status_code;
+
 	free(info);
-	return (0);
+
+	return (status_code);
 }
 

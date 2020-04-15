@@ -23,6 +23,7 @@ void analyze(char **arguments, general_t *info, char *buff)
 	status = is_file(cmd);
 	if (status == NON_PERMISSIONS)
 	{
+		info->status_code = 126;
 		info->error_code = _CODE_EACCES;
 		error(info);
 		return;
@@ -46,6 +47,7 @@ void analyze(char **arguments, general_t *info, char *buff)
 		return;
 	}
 
+	info->status_code = 127;
 	info->error_code = _CODE_CMD_NOT_EXISTS;
 	error(info);
 }

@@ -35,7 +35,7 @@ typedef struct __attribute__((__packed__))
 	int n_commands;           /* Number of commands executed */
 	char *value_path;         /* Path of a command */
 	int is_current_path;      /* Check if is current path or not */
-	int status_code           /* Last exit code */
+	int status_code;          /* Last exit code */
 } general_t;
 
 typedef struct __attribute__((__packed__))

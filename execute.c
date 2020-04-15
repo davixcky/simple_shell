@@ -12,8 +12,11 @@
 void execute(char *command, char **arguments, general_t *info, char *buff)
 {
 	char **tmp;
+	int status;
+	pid_t pid;
 
-	if (fork() == 0)
+	pid = fork();
+	if (pid == 0)
 	{
 		execve(command, arguments, environ);
 		perror("./sh");
@@ -28,9 +31,11 @@ void execute(char *command, char **arguments, general_t *info, char *buff)
 		free(buff);
 		exit(1);
 	}
-	else
+	else if (pid > 0)
 	{
-		wait(NULL);
+		waitpid(pid, &status, 0);
+		if (WIFEXITED(status))
+			info->status_code = WEXITSTATUS(status);
 	}
 }
 

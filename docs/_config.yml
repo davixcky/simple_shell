@@ -6,6 +6,7 @@ header_pages:
   - file_IO.md
   - signals.md
   - environment_variables.md
+  - child_and_process.md
 
 style: dark
 

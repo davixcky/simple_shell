@@ -1,7 +1,7 @@
 ---
 title: /enviroment_variables
 layout: home
-permalink: /Enviroment_variables
+permalink: /enviroment_variables
 ---
 
 # Enviroment_variables

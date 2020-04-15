@@ -1,10 +1,10 @@
 ---
-title: /contact
-layout: page
-permalink: /contact
+title: /Enviroment_variables
+layout: home
+permalink: /Enviroment_variables
 ---
 
-# Get in touch?
+# Enviroment_variables
 
 <form>
   <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">

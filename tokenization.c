@@ -1,5 +1,4 @@
 #include "text.h"
-#include <string.h>
 
 /**
  * split_words - Split a line into words
@@ -12,38 +11,40 @@
 char **split_words(char *line, const char *sep)
 {
 	char **words, **tmp, *token;
-	size_t n;
+	size_t new_size, old_size;
 
-	words = malloc(sizeof(char *));
+	old_size = sizeof(char *);
+	words = malloc(old_size);
 	if (words != NULL)
 	{
-		n = 1;
+		new_size = 1;
 		token = strtok(line, sep);
 		while (token)
 		{
-			tmp = realloc(words, (n + 1) * sizeof(char *));
+			tmp = _realloc(words, old_size, (new_size + 1) * sizeof(char *));
+			old_size = (new_size + 1) * sizeof(char *);
 			if (tmp == NULL)
 				break;
 
 			words = tmp;
-			++n;
+			++new_size;
 
-			words[n - 2] = malloc(_strlen(token) + 1);
+			words[new_size - 2] = malloc(_strlen(token) + 1);
 			if (words == NULL)
 			{
 				free(tmp);
 				free(words);
 			}
 
-			if (words[n - 2] != NULL)
-				_strcpy(words[n - 2], token);
+			if (words[new_size - 2] != NULL)
+				_strcpy(words[new_size - 2], token);
 
 			token = strtok(NULL, sep);
 
 			tmp = NULL;
 		}
 
-		words[n - 1] = NULL;
+		words[new_size - 1] = NULL;
 	}
 
 	return (words);

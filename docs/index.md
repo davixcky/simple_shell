@@ -3,7 +3,7 @@ title: /
 layout: home
 permalink: /
 ---
-![enter image descri pndsfasdf](https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png)
+<p align="center"> <img src = "https://hotemoji.com/images/emoji/8/1xbdigiqloc38.png" /></p>
 # Welcome to Kayman Shell - k_shell
 
 ## Test

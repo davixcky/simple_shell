@@ -6,7 +6,7 @@ permalink: /files_I/O
 
 # file_I/O
 
-< ul style="margin-top:16 px">
+<ul style="margin-top:16 px">
   <li>AUTHORS</li>
   <li>commands.h</li>
   <li>enviroment.c</li>

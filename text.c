@@ -50,7 +50,7 @@ void start_prompt(general_t *info)
 {
 	char *buff;
 	char **arguments;
-	char **tmp;
+	/*char **tmp;*/
 	char *path;
 
 	while (1)
@@ -75,12 +75,7 @@ void start_prompt(general_t *info)
 
 			analyze(arguments, info, buff);
 
-			/* Free memory */
-			for (tmp = arguments; *tmp; ++tmp)
-				free(*tmp);
-
-			if (arguments != NULL)
-				free(arguments);
+			free_memory_pp((void *) arguments);
 		}
 
 		free(buff);

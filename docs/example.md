@@ -13,8 +13,8 @@ permalink: /test
 
 <p style="margin-top: 16px"></p>
 ## Authors:
-[/David Orozco](https://https://github.com/davixcky)
-[/Hugo Santiago](https://https://github.com/hfsantiago)
+[/David Orozco](https://github.com/davixcky)
+[/Hugo Santiago](https://github.com/hfsantiago)
 
 
 <h1></h1>

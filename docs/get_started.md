@@ -113,6 +113,7 @@ In this example we are comparing `Konsole` and `xterm` and you can see big diffe
  - `Terminal emulator` is the entire windows, so you can interact with the `Shell`
 ​
 
-
-Go to basic:
-[next-->](http://simple-shell.me/basic)
+<div align="right">
+<p>Go to basic:</p>
+<a href="http://simple-shell.me/basic">next--></a>
+</div>

@@ -114,10 +114,14 @@ In this example we are comparing `Konsole` and `xterm` and you can see big diffe
  - `Shell` is a program that read and interpret lines and sent that lines to `SO` and then print the result
  - `Terminal emulator` is the entire windows, so you can interact with the `Shell`
 
-<div>
-<p align="left"><a href="http://simple-shell.me/get_started"><--previous</a></p>
-<p align="right"><a href="http://simple-shell.me/signals">next--></a></p>
+
+<div style="display: flex; justify-content: space-between;">
+
+<a href="http://simple-shell.me/get_started"><--previous</a> 
+<a href="http://simple-shell.me/signals">next--></a>
+ 
 </div>
+
 ​
 
 

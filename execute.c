@@ -1,5 +1,6 @@
 #include "commands.h"
 #include "general.h"
+#include "memory.h"
 
 /**
  * execute - Execute a command in other process
@@ -11,7 +12,6 @@
  **/
 void execute(char *command, char **arguments, general_t *info, char *buff)
 {
-	char **tmp;
 	int status;
 	pid_t pid;
 
@@ -20,13 +20,15 @@ void execute(char *command, char **arguments, general_t *info, char *buff)
 	{
 		execve(command, arguments, environ);
 		perror("./sh");
-		for (tmp = arguments; *tmp; ++tmp)
-			free(*tmp);
 
-		if (arguments != NULL)
-			free(arguments);
+		free_memory_pp((void *) arguments);
 
-		free(info->value_path);
+		if (info->value_path != NULL)
+		{
+			free(info->value_path);
+			info->value_path = NULL;
+		}
+
 		free(info);
 		free(buff);
 		exit(1);

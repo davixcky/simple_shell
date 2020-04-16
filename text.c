@@ -1,6 +1,7 @@
 #include "text.h"
 #include "commands.h"
 #include "general.h"
+#include "memory.h"
 
 /**
  * prompt - Print the prompt
@@ -32,7 +33,7 @@ char *read_prompt()
 
 	if (res == EOF)
 	{
-		free(buf);
+		free_memory_p((void *) buf);
 		return (NULL);
 	}
 
@@ -50,7 +51,6 @@ void start_prompt(general_t *info)
 {
 	char *buff;
 	char **arguments;
-	/*char **tmp;*/
 	char *path;
 
 	while (1)
@@ -78,8 +78,8 @@ void start_prompt(general_t *info)
 			free_memory_pp((void *) arguments);
 		}
 
-		free(buff);
-		free(path);
+		free_memory_p((void *) buff);
+		free_memory_p((void *) path);
 	}
 
 }

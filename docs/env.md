@@ -6,6 +6,8 @@ permalink: /env
 
 # Environment_variables
 
+<p align="center"> <img src = "https://thumbs.gfycat.com/FairAppropriateBuck-size_restricted.gif" /></p>
+
 <h1></h1>
 <div style="display: flex; justify-content: space-between; margin-bottom: -20px; margin-top: 50px">
 <p><a href="http://simple-shell.me/signals"><--previous</a></p>

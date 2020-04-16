@@ -41,13 +41,13 @@ And this is another prompt that do the same, but with an unique style
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Default PS1</th>
+      <th style="text-align: center">Default PS1</th>
       <th style="text-align: center">Customized PS1</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><img src = "https://i.imgur.com/OAduWKS.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://i.imgur.com/OAduWKS.gif" style = "max-width: 100%"/></td>
       <td style="text-align: center"><img src = "https://i.imgur.com/PYDv0LI.gif" style = "max-width: 100%"/></td>
     </tr>
   </tbody>
@@ -69,13 +69,13 @@ And this is another prompt that do the same, but with an unique style
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Sh</th>
+      <th style="text-align: center">Sh</th>
       <th style="text-align: center">Zsh</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><img src = "https://imgur.com/V8DMYKP.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://imgur.com/V8DMYKP.gif" style = "max-width: 100%"/></td>
       <td style="text-align: center"><img src = "https://imgur.com/7BIfQ4M.gif" style = "max-width: 100%"/></td>
     </tr>
   </tbody>
@@ -90,13 +90,13 @@ And this is another prompt that do the same, but with an unique style
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Konsole</th>
+      <th style="text-align: center">Konsole</th>
       <th style="text-align: center">xterm</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><img src = "https://imgur.com/Fx46wpC.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://imgur.com/Fx46wpC.gif" style = "max-width: 100%"/></td>
       <td style="text-align: center"><img src = "https://imgur.com/y2Eoa6v.gif" style = "max-width: 100%"/></td>
     </tr>
   </tbody>
@@ -114,5 +114,5 @@ In this example we are comparing `Konsole` and `xterm` and you can see big diffe
 ​
 
 
-## References
-[next-->](https://wikipedia.org/wiki/Peter_principle)
+Go to basic:
+[next-->](http://simple-shell.me/basic)

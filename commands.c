@@ -1,4 +1,5 @@
 #include "commands.h"
+#include "builtins.h"
 #include "general.h"
 #include "text.h"
 
@@ -19,6 +20,7 @@ void analyze(char **arguments, general_t *info, char *buff)
 
 	cmd = arguments[0];
 	info->command = cmd;
+	check_builtin(info, arguments);
 
 	status = is_file(cmd);
 	if (status == NON_PERMISSIONS)

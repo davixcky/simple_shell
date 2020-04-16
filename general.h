@@ -36,6 +36,9 @@ typedef struct __attribute__((__packed__))
 	char *value_path;         /* Path of a command */
 	int is_current_path;      /* Check if is current path or not */
 	int status_code;          /* Last exit code */
+	char *buffer;             /* Line readed with the getline */
+	char **arguments;         /* Line splited into words */
+	char *environment;        /* Last environment variable get it */
 } general_t;
 
 typedef struct __attribute__((__packed__))
@@ -43,6 +46,12 @@ typedef struct __attribute__((__packed__))
 	char *message;
 	int code;
 } error_t;
+
+typedef struct __attribute__((__packed__))
+{
+	char *command;
+	void (*func)(general_t *info, char **arguments);
+} builtin_t;
 
 #endif /* GENERAL_H */
 

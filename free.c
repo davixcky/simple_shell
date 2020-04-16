@@ -13,6 +13,7 @@ void free_memory_p(void *ptr)
 		ptr = NULL;
 	}
 
+	ptr = NULL;
 }
 
 /**

@@ -60,6 +60,7 @@ void start_prompt(general_t *info)
 		path = _getenv("PATH");
 		is_current_path(path, info);
 
+		info->environment = path;
 		buff = read_prompt();
 		if (buff == NULL)
 		{
@@ -73,6 +74,8 @@ void start_prompt(general_t *info)
 		{
 			arguments = split_words(buff, " \t\n");
 
+			info->arguments = arguments;
+			info->buffer = buff;
 			analyze(arguments, info, buff);
 
 			free_memory_pp((void *) arguments);

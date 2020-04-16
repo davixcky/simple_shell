@@ -6,9 +6,8 @@ permalink: /env
 
 # Environment_variables
 
-<form>
-  <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">
-  <input type="text" id="email" name="email" placeholder="email:" autocomplete="off">
-  <textarea rows="5" id="message" name="message" placeholder="message:" autocomplete="off"></textarea>
-  <input type="submit" value="[ submit ]">
-</form>
+<h1></h1>
+<div style="display: flex; justify-content: space-between; margin-bottom: -20px; margin-top: 50px">
+<p><a href="http://simple-shell.me/signals"><--previous</a></p>
+<p><a href="http://simple-shell.me/fork">next--></a></p>
+</div>

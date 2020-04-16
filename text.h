@@ -13,6 +13,7 @@
 void start_prompt(general_t *info);
 void prompt(general_t *info);
 char *read_prompt();
+void sigintHandler(int sig_num);
 
 /* utils_text.c */
 int _strlen(char *msg);

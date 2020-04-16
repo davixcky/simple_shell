@@ -69,6 +69,7 @@ void start_prompt(general_t *info)
 			break;
 		}
 
+		signal(SIGINT, sigintHandler);
 		info->n_commands++;
 		if (buff[0] != '\n')
 		{
@@ -87,3 +88,11 @@ void start_prompt(general_t *info)
 
 }
 
+void sigintHandler(int sig_num)
+{
+	(void) sig_num;
+
+	signal(SIGINT, sigintHandler);
+	print("\n$ ");
+	fflush(stdout);
+}

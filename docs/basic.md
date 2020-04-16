@@ -115,12 +115,11 @@ In this example we are comparing `Konsole` and `xterm` and you can see big diffe
  - `Terminal emulator` is the entire windows, so you can interact with the `Shell`
 
 <h1></h1>
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; margin-top: 16px">
 <p><a href="http://simple-shell.me/get_started"><--previous</a></p>
 <p><a href="http://simple-shell.me/signals">next--></a></p>
 </div>
 
-​
 
 
 

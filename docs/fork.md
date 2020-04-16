@@ -8,4 +8,8 @@ permalink: /fork
 
 
 ## References
-[wikipedia.org/wiki/Peter_principle](https://wikipedia.org/wiki/Peter_principle)
+<h1></h1>
+<div style="display: flex; justify-content: space-between; margin-bottom: -20px; margin-top: 50px">
+<p><a href="http://simple-shell.me/env"><--previous</a></p>
+<p><a href="http://simple-shell.me/example">next--></a></p>
+</div>

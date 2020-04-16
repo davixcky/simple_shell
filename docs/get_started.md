@@ -24,7 +24,7 @@ We are going to talk in a depth way, so get some popcorn and come back later, be
 We are going to explain the concepts with almost all the details, so we decided to split the blog in different parts. And as you can imagine, this is part 0. 
 ## Lets go start!!
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between">
 <p><a href="http://simple-shell.me/"><--previous</a></p>
 <p><a href="http://simple-shell.me/basic">next--></a></p>
 </div>

@@ -38,8 +38,8 @@ And this is another prompt that do the same, but with an unique style
  - Environment variable
  - Config for appearance of prompt 
  
-Default PS1         |  Customized PS1
-:-------------------------:|:-------------------------:
+      Default PS1                     |     Customized PS1
+:------------------------------------:|:-------------------------------------:
 ![](https://i.imgur.com/OAduWKS.gif)  |  ![](https://i.imgur.com/PYDv0LI.gif)
 ​
 #### 2. Shell

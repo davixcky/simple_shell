@@ -21,7 +21,7 @@ When we start in the word of the commands, UNIX, programming, etc we think that 
  - You can general information like `current directory`, `current username`, `name of the computer`...
 ​
 This is a prompt by default and basic
-<img src="https://i.imgur.com/OjuSACW.png">
+<img src="https://i.imgur.com/OjuSACW.png" style = "max-width: 100%">
 ​
  1. `davixcky` is the username
  2. `@` is just a separator
@@ -29,7 +29,7 @@ This is a prompt by default and basic
  4. `~` is like a shorcut that means [HOME](https://twiki.org/cgi-bin/view/Wikilearn/TildeSlash)
 ​
 And this is another prompt that do the same, but with an unique style
-<img src="https://i.imgur.com/vYXIRiq.png">
+<img src="https://i.imgur.com/vYXIRiq.png" style = "max-width: 100%">
 ​
  In this case `90%` of the current information, is just icons and graphics information.
  - `Home icon` that mean that we our current directory is `/home/davixcky` or the previous shortcut `~`
@@ -41,14 +41,14 @@ And this is another prompt that do the same, but with an unique style
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Default PS1/th>
+      <th style="text-align: left">Default PS1</th>
       <th style="text-align: center">Customized PS1</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><img src = "https://i.imgur.com/OAduWKS.gif"/></td>
-      <td style="text-align: center"><img src = "https://i.imgur.com/PYDv0LI.gif"/></td>
+      <td style="text-align: left"><img src = "https://i.imgur.com/OAduWKS.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://i.imgur.com/PYDv0LI.gif" style = "max-width: 100%"/></td>
     </tr>
   </tbody>
 </table>
@@ -65,20 +65,42 @@ And this is another prompt that do the same, but with an unique style
  - The expected behavior is the same 
  - Almost all the `shell` are written with the same pattern
  - The pattern is: `Read`, `Analyze` and `Execute`
- 
-|Sh|Zsh|
-|--|--|
-| ![enter image description here](https://imgur.com/V8DMYKP.gif)|![https://imgur.com/7BIfQ4M.gif](https://imgur.com/7BIfQ4M.gif)  |
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Sh</th>
+      <th style="text-align: center">Zsh</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src = "https://imgur.com/V8DMYKP.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://imgur.com/7BIfQ4M.gif" style = "max-width: 100%"/></td>
+    </tr>
+  </tbody>
+</table>
+
 ### Terminal emulators
  - Is the window
  - Is a way for open a `Shell`
  - You can interact with the `Shell` from this part
  - Exists a lot of `terminal emulators`, [Konsole](https://konsole.kde.org/), [Iterm2 (Mac Os)](https://www.iterm2.com/). [Windows terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab), etc.
  
- 
-|Konsole  |xterm  |
-|--|--|
-|![https://imgur.com/Fx46wpC.gif](https://imgur.com/Fx46wpC.gif)  |![https://imgur.com/y2Eoa6v.gif](https://imgur.com/y2Eoa6v.gif)  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Konsole</th>
+      <th style="text-align: center">xterm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src = "https://imgur.com/Fx46wpC.gif" style = "max-width: 100%"/></td>
+      <td style="text-align: center"><img src = "https://imgur.com/y2Eoa6v.gif" style = "max-width: 100%"/></td>
+    </tr>
+  </tbody>
+</table>
 ​
 In this example we are comparing `Konsole` and `xterm` and you can see big differences.
 ​

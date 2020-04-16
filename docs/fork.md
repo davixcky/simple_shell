@@ -16,6 +16,10 @@ permalink: /fork
 
 <p style="margin-top: 16px"><b>What is a process?</b>A process is an instance of a program that is running. Initially, every process has a single line of execution. It can be understood as the dynamic (running) view of a program.</p>
 
+<p style="margin-top: 16px"><b>what does <code style="color:orange;">fork()</code> do?</b>The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps.</p>
+
+<h1></h1>
+
 <div style="display: flex; justify-content: space-between; margin-top: 50px">
 <p><a href="http://simple-shell.me/env"><--previous</a></p>
 <p><a href="http://simple-shell.me/example">next--></a></p>

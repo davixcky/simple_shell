@@ -20,3 +20,9 @@ The signs are identified by an integer number. We will not detail all of them, b
 #define SIGTRAP 5   /* Trace trap. */ 
 #define SIGABRT 6   /* Abort. */
 </pre>
+
+<h1></h1>
+<div style="display: flex; justify-content: space-between; margin-bottom: -20px; margin-top: 50px">
+<p><a href="http://simple-shell.me/basic"><--previous</a></p>
+<p><a href="http://simple-shell.me/env">next--></a></p>
+</div>

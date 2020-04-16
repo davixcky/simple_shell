@@ -4,10 +4,10 @@ layout: page
 permalink: /fork
 ---
 
+<p align="center"> <img src = "https://i.imgur.com/HdvfaRD.png" style="width: 380px; height: 400px ;" /></p>
 
 
 
-## References
 <h1></h1>
 <div style="display: flex; justify-content: space-between; margin-top: 50px">
 <p><a href="http://simple-shell.me/env"><--previous</a></p>

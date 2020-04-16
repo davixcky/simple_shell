@@ -12,6 +12,9 @@ permalink: /test
 <div style="margin-top: 16px"><b></b></div>
 
 <p style="margin-top: 16px"></p>
+## Authors:
+[/David Orozco](https://https://github.com/davixcky)
+[/Hugo Santiago](https://https://github.com/hfsantiago)
 
 
 <h1></h1>

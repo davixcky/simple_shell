@@ -120,8 +120,10 @@ void is_current_path(char *path, general_t *info)
 		info->is_current_path = _TRUE;
 }
 
-
-void get_full_env()
+/**
+ * get_full_env - Get all the environment
+ **/
+void get_full_env(void)
 {
 	char **tmp;
 	int i;

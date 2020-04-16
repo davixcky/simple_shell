@@ -1,6 +1,7 @@
 #include "commands.h"
 #include "builtins.h"
 #include "general.h"
+#include "memory.h"
 #include "text.h"
 
 /**
@@ -45,8 +46,7 @@ void analyze(char **arguments, general_t *info, char *buff)
 	if (info->value_path != NULL)
 	{
 		execute(info->value_path, arguments, info, buff);
-		if (info->value_path != NULL)
-			free(info->value_path);
+		free_memory_p((void *) info->value_path);
 		return;
 	}
 

@@ -88,6 +88,11 @@ void start_prompt(general_t *info)
 
 }
 
+/**
+ * sigintHandler - Handler for SIGINT
+ *
+ * @sig_num: Unused parameter
+ **/
 void sigintHandler(int sig_num)
 {
 	(void) sig_num;

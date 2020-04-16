@@ -37,10 +37,22 @@ And this is another prompt that do the same, but with an unique style
 ##### 1.1 PS1
  - Environment variable
  - Config for appearance of prompt 
- 
-|      Default PS1                       |     Customized PS1                    | 
-|:--------------------------------------:|:-------------------------------------:|
-|  ![](https://i.imgur.com/OAduWKS.gif)  |  ![](https://i.imgur.com/PYDv0LI.gif) |
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Default PS1/th>
+      <th style="text-align: center">Customized PS1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src = "https://i.imgur.com/OAduWKS.gif"/></td>
+      <td style="text-align: center"><img src = "https://i.imgur.com/PYDv0LI.gif"/></td>
+    </tr>
+  </tbody>
+</table>
+
 ​
 #### 2. Shell
 ​

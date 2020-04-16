@@ -20,7 +20,8 @@ void analyze(char **arguments, general_t *info, char *buff)
 
 	cmd = arguments[0];
 	info->command = cmd;
-	check_builtin(info, arguments);
+	if (check_builtin(info, arguments) == _TRUE)
+		return;
 
 	status = is_file(cmd);
 	if (status == NON_PERMISSIONS)

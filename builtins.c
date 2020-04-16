@@ -1,5 +1,4 @@
 #include "builtins.h"
-#include "general.h"
 
 /**
  * builtins - Check and execute the builtins
@@ -36,15 +35,16 @@ int check_builtin(general_t *info, char **arguments)
 {
 	int i, size;
 	builtin_t builtins[] = {
-		{"exit", bin_exit}
+		{"exit", bin_exit},
+		{"env", bin_env}
 	};
 
 	size = sizeof(builtins) / sizeof(builtins[0]);
 	for (i = 0; i < size; i++)
 	{
-		if (_strcmp(info->command, builtins->command) == 0)
+		if (_strcmp(info->command, builtins[i].command) == 0)
 		{
-			builtins->func(info, arguments);
+			builtins[i].func(info, arguments);
 			return (_TRUE);
 		}
 	}

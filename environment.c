@@ -3,6 +3,7 @@
 #include "text.h"
 #include <string.h>
 #include <sys/cdefs.h>
+#include <unistd.h>
 
 /**
  * _getenv - Get a environment variable
@@ -103,7 +104,7 @@ char *which(char *filename, general_t *info)
 }
 
 /**
- * is_current_path -  Check the order of the path
+ * is_current_path -	Check the order of the path
  *
  * @path: PATH to check
  * @info: General infor about the shell
@@ -119,3 +120,15 @@ void is_current_path(char *path, general_t *info)
 		info->is_current_path = _TRUE;
 }
 
+
+void get_full_env()
+{
+	char **tmp;
+	int i;
+
+	for (i = 0, tmp = environ; tmp[i] != NULL; i++)
+	{
+		print(tmp[i]);
+		_putchar('\n');
+	}
+}

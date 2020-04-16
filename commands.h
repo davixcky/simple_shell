@@ -26,6 +26,7 @@ int is_file(char *command);
 char *_getenv(const char *name);
 char *which(char *filename, general_t *info);
 void is_current_path(char *path, general_t *info);
+void get_full_env();
 
 /* execute.c */
 void execute(char *commands, char **arguments, general_t *info, char *buff);

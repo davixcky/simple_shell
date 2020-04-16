@@ -4,8 +4,7 @@ title: /signals
 permalink: /signals
 ---
 
-
-<p align="center"> <img src = "https://media1.tenor.com/images/be5b0d3b2c32d8c140a2b242d5dc1b90/tenor.gif?itemid=14388513" /></p>
+<p align="center"> <img src = "https://media1.tenor.com/images/be5b0d3b2c32d8c140a2b242d5dc1b90/tenor.gif?itemid=14388513" style="width: 250px; height: 250px" /></p>
 
 # What is a signal at C?
 

@@ -116,8 +116,8 @@ In this example we are comparing `Konsole` and `xterm` and you can see big diffe
 
 <h1></h1>
 <div style="display: flex; justify-content: space-between;">
-<a href="http://simple-shell.me/get_started"><--previous</a> 
-<a href="http://simple-shell.me/signals">next--></a>
+<p><a href="http://simple-shell.me/get_started"><--previous</a></p>
+<p><a href="http://simple-shell.me/signals">next--></a></p>
 </div>
 
 ​

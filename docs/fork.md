@@ -4,7 +4,7 @@ layout: page
 permalink: /fork
 ---
 
-<p align="center"> <img src = "https://i.imgur.com/HdvfaRD.png" style="width: 380px; height: 400px ;" /></p>
+<p align="center"> <img src = "https://i.imgur.com/HdvfaRD.png" style="width: 210px; height: 220px ;" /></p>
 
 
 

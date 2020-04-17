@@ -3,7 +3,7 @@
 
 <p align="center"> 
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
-        <img src="https://img.shields.io/badge/Mandatory-25%25-blue" />
+        <img src="https://img.shields.io/badge/Mandatory-100%25-blue" />
 </a>
  <a href="https://intranet.hbtn.io/projects/235" alt="Contributors">
        <img src="https://img.shields.io/badge/Advanced-0%25-green" />

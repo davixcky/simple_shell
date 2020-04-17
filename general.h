@@ -49,7 +49,7 @@ typedef struct __attribute__((__packed__))
 
 typedef struct __attribute__((__packed__))
 {
-	char *command;
+	char *command;            /* arguments[0] = cmd */
 	void (*func)(general_t *info, char **arguments);
 } builtin_t;
 

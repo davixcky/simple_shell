@@ -10,6 +10,9 @@ permalink: /test
 
 <div style="margin-top: 16px"><b>1. The user is expected to type <code style="color:orange;">ls -l </code>on the command line.</b></div>
 
+<div style="margin-top: 16px"><b>2.2. By having this srting: of <code style="color:orange;">ls -l </code>, k_shell breaks it down into smaller words process known as tockenization.</b></div>
+
+
 <div style="margin-top: 16px"><b></b></div>
 
 <p style="margin-top: 16px"></p>

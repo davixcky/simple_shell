@@ -39,12 +39,12 @@ void bin_echo(general_t *info, char **arguments)
 			print(tmp);
 			free_memory_p((void *) tmp);
 
-			_putchar(' ');
+			_putchar((arguments[i + 1] != NULL) ? ' ' : '\0');
 			continue;
 		}
 
+
 		print(arguments[i]);
-		_putchar(' ');
 	}
 
 	_putchar('\n');

@@ -36,17 +36,25 @@ void bin_echo(general_t *info, char **arguments)
 				}
 			}
 
-			print(tmp);
+			echo_printer(i, tmp, arguments);
 			free_memory_p((void *) tmp);
 
-			_putchar((arguments[i + 1] != NULL) ? ' ' : '\0');
 			continue;
 		}
 
-
-		print(arguments[i]);
+		echo_printer(i, arguments[i], arguments);
 	}
 
-	_putchar('\n');
 	info->status_code = 0;
 }
+
+void echo_printer(int i, char *text, char **arguments)
+{
+	print(text);
+
+	if (arguments[i + 1] != NULL)
+		_putchar(' ');
+	else
+		_putchar('\n');
+}
+

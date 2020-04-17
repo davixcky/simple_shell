@@ -8,6 +8,7 @@ permalink: /test
 
 <p align="center"> <img src = "https://www.trythisforexample.com/wp-content/uploads/2018/07/example-logo.png" style="width: 500px; height: 200px; margin-top: 10px" /></p>
 
+<div style="margin-top: 16px"><b>1. The user is expected to type <code style="color:orange;">ls -l </code>on the command line.</b></div>
 
 <div style="margin-top: 16px"><b></b></div>
 

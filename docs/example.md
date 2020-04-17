@@ -12,6 +12,8 @@ permalink: /test
 
 <div style="margin-top: 16px"><b>2.2. By having this srting: of <code style="color:orange;">ls -l </code>, k_shell breaks it down into smaller words process known as tockenization.</b></div>
 
+<div style="margin-top: 16px"><b>3. Having these small "tockens" from the first one validates if it is a bluit-in.</b></div>
+
 
 <div style="margin-top: 16px"><b></b></div>
 

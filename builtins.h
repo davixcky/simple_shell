@@ -16,4 +16,7 @@ void bin_exit(general_t *info, char **arguments);
 /* env.c */
 void bin_env(general_t *info, char **arguments);
 
+/* echo.c */
+void bin_echo(general_t *info, char **arguments);
+
 #endif /* BUILTINS_H */

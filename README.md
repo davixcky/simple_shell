@@ -19,8 +19,9 @@
 ##
 
 # k_shell:crocodile:
-This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can this file or you can go to the *k-shell* documentation. This project was created to **Holberton School.**
+This is our litle tiny Shell named **k_shell**. If you want to learn about k_shell, you can this file or you can go to the *k-shell* documentation. 
 
+This project was created to **Holberton School.**
 
 ## Table of contents :clipboard:
 

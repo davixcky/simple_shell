@@ -12,6 +12,7 @@
 #include "text.h"
 #include "error.h"
 #include "builtins.h"
+#include "memory.h"
 
 extern char **environ;
 

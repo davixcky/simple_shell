@@ -30,7 +30,13 @@ char *to_string(int number)
 	char *_number;
 
 	n_digits = digits(number);
-	_number = malloc(n_digits * sizeof(char) + 1);
+	_number = malloc(n_digits * sizeof(char) + 2);
+	if (number == 0)
+	{
+		_number[0] = '0';
+		_number[1] = '\0';
+		return (_number);
+	}
 	/* Check NULL */
 
 	_number[n_digits] = '\0';
@@ -39,3 +45,4 @@ char *to_string(int number)
 
 	return (_number);
 }
+

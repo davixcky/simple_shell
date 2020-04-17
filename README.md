@@ -104,3 +104,5 @@ commands.c  environment.c  error.h  general.h  main.c  printers.c     printers_o
 <img src = "https://imgur.com/hImZBUL.jpg" />
 </p>
 
+## Contributors  
+[@Hugo Fernel - Github](https://github.com/hfsantiago) - [@David Orozco - Github](https://github.com/davixcky) 

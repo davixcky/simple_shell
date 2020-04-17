@@ -101,6 +101,6 @@ commands.c  environment.c  error.h  general.h  main.c  printers.c     printers_o
 ## File Structure :file_folder:
 
 <p align="center"> 
-<img src = "https://imgur.com/SlFLt9b.jpg" />
+<img src = "https://imgur.com/hImZBUL.jpg" />
 </p>
 

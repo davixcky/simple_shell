@@ -43,8 +43,8 @@ typedef struct __attribute__((__packed__))
 
 typedef struct __attribute__((__packed__))
 {
-	char *message;
-	int code;
+	char *message;            /* Error message */
+	int code;                 /* Error code for identify the error message */
 } error_t;
 
 typedef struct __attribute__((__packed__))

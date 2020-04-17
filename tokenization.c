@@ -53,10 +53,10 @@ char **split_words(char *line, const char *sep)
 
 /**
  * join_words - Join 3 words with a separator
- *
- * @word1: Word to join
- * @word2: Word to join
- * @word3: Word to join
+ * Description: Result -> w1.sep.w2.sep.nl
+ * @word1: Word1 to join
+ * @word2: Word2 to join
+ * @word3: Word3 to join
  * @sep: Separator between the words
  *
  * Return: Line composed by 3 parts followed by a separator and

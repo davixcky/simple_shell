@@ -14,6 +14,7 @@ permalink: /test
 
 <div style="margin-top: 16px"><b>3. Having these small "tockens" from the first one validates if it is a bluit-in.</b></div>
 
+<div style="margin-top: 16px"><b>4. Finally, look for the environment variable <code style="color:orange;">$PATH</code> to execute the command</b></div>
 
 <div style="margin-top: 16px"><b></b></div>
 

@@ -22,8 +22,6 @@ The signs are identified by an integer number. We will not detail all of them, b
 #define SIGABRT 6   /* Abort. */
 </pre>
 
-<p style="margin-top: 16px"><b>What does <code style="color:orange;">fork()</code> do?</b> The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps.</p>
-
 <p style="margin-top: 16px"><b>How the signals actually <code style="color:orange;">works</code>?</b> The signals are asynchronous, that means signals not depends of the flow of the code, because if the <code style="color:orange;">signal handler</code> receive an event, then this flow, it's going to be affected by the signal handler. The handler listen any events, while none event is emmited, the flow maintains equal as the design</p>
 
 

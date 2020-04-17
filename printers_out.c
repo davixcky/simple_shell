@@ -24,5 +24,11 @@ int _putchar(char c)
  **/
 int print(char *msg)
 {
+	if (msg == NULL)
+	{
+		msg = malloc(_strlen("(null)") + 2);
+		msg = _strcpy(msg, "(null)");
+	}
+
 	return (print_to_fd(msg, STDOUT));
 }

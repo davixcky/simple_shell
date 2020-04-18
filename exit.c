@@ -46,8 +46,9 @@ int number_controller(general_t *info, char *number)
 
 	if (_number > 255)
 		info->status_code = 232;
+	else
+		info->status_code = _number;
 
-	info->status_code = _number;
 	return (_TRUE);
 }
 

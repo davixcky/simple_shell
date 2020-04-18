@@ -30,6 +30,15 @@ void bin_exit(general_t *info, char **arguments)
 	exit(status_code);
 }
 
+/**
+ * number_controller - Control the argument of exit
+ *
+ * @info: General information about the shell
+ * @number: Argument of the builtin
+ *
+ * Return: If the actual argument is valid, return _TRUE
+ * if not, return _FALSE
+ **/
 int number_controller(general_t *info, char *number)
 {
 	int _number;

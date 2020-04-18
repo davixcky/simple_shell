@@ -60,6 +60,12 @@ void error(general_t *info)
 	free(aux);
 }
 
+/**
+ * error_extra - Print the error with extra information
+ *
+ * @info: General information about the shell
+ * @extra: Extra information
+ **/
 void error_extra(general_t *info, char *extra)
 {
 	char *message, *number, *aux, *aux2;

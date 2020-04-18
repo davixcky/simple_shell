@@ -2,7 +2,6 @@
 #include "commands.h"
 #include "memory.h"
 #include "text.h"
-#include <unistd.h>
 
 /**
  * bin_echo - Echo builtins
@@ -48,6 +47,13 @@ void bin_echo(general_t *info, char **arguments)
 	info->status_code = 0;
 }
 
+/**
+ * echo_printer - Change the symbol with the value
+ *
+ * @i: Index
+ * @text: Actual argument
+ * @arguments: Full string
+ **/
 void echo_printer(int i, char *text, char **arguments)
 {
 	print(text);

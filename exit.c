@@ -40,7 +40,7 @@ int number_controller(general_t *info, char *number)
 	{
 		info->status_code = 2;
 		info->error_code = _CODE_ILLEGAL_NUMBER;
-		error(info);
+		error_extra(info, number);
 		return (_FALSE);
 	}
 

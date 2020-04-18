@@ -53,6 +53,7 @@ void start_prompt(general_t *info)
 	char **arguments;
 	char *path;
 
+	signal(SIGINT, sigintHandler);
 	while (1)
 	{
 		prompt(info);
@@ -69,7 +70,6 @@ void start_prompt(general_t *info)
 			break;
 		}
 
-		signal(SIGINT, sigintHandler);
 		info->n_commands++;
 		if (buff[0] != '\n')
 		{

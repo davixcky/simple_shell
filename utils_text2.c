@@ -93,6 +93,14 @@ int _atoi(char *s)
 	return (number * sign);
 }
 
+/**
+ * contains_letter - Search non-digits in a string
+ *
+ * @s: String for search
+ *
+ * Return: If a non-digits was found, return _TRUE
+ * if not, return _FALSE
+ **/
 int contains_letter(char *s)
 {
 	int i;

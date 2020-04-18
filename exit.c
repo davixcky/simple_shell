@@ -1,4 +1,5 @@
 #include "builtins.h"
+#include "general.h"
 
 /**
  * bin_exit - Implementation of the exit builtin
@@ -10,7 +11,14 @@
  **/
 void bin_exit(general_t *info, char **arguments)
 {
-	int status_code;
+	int status_code, status;
+
+	status = _TRUE;
+	if (arguments[1] != NULL)
+		status = number_controller(info, arguments[1]);
+
+	if (status == _FALSE)
+		return;
 
 	status_code = info->status_code;
 
@@ -20,5 +28,27 @@ void bin_exit(general_t *info, char **arguments)
 	free_memory_p((void *) info);
 
 	exit(status_code);
+}
+
+int number_controller(general_t *info, char *number)
+{
+	int _number;
+
+	_number = _atoi(number);
+
+	if (_number < 0 || contains_letter(number))
+	{
+		info->status_code = 2;
+		info->error_code = _CODE_ILLEGAL_NUMBER;
+		error(info);
+		return (_FALSE);
+	}
+
+	if (_number > 255)
+		info->status_code = 232;
+
+	printf("%d\n", _number);
+
+	return (_TRUE);
 }
 

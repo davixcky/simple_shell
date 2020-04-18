@@ -19,10 +19,13 @@ permalink: /test
 <div style="margin-top: 16px"><b></b></div>
 
 <p style="margin-top: 16px"></p>
-## Authors:
+
+Authors:
 [/David Orozco](https://github.com/davixcky)
 [/Hugo Santiago](https://github.com/hfsantiago)
 
+### Look up this theme at:
+[jekyll-theme-console](http://jekyllthemes.org/themes/jekyll-theme-console/)
 
 <h1></h1>
 <div style="display: flex; justify-content: space-between; margin-bottom: -20px; margin-top: 50px">

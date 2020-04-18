@@ -13,9 +13,10 @@ char *message_selector(general_t info)
 {
 	int i, n_options;
 	error_t messages[] = {
-		{_ENOENT, 2},
-		{_EACCES, 13},
-		{_CMD_NOT_EXISTS, 132}
+		{_ENOENT, _CODE_ENOENT},
+		{_EACCES, _CODE_EACCES},
+		{_CMD_NOT_EXISTS, _CODE_CMD_NOT_EXISTS},
+		{_ILLEGAL_NUMBER, _CODE_ILLEGAL_NUMBER}
 	};
 
 	n_options = sizeof(messages) / sizeof(messages[0]);

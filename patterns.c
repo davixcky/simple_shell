@@ -35,7 +35,7 @@ char *replace_value(general_t *info, int *index, char *string)
 	value = replacement(info, index, string + i);
 	if (value == NULL)
 	{
-		string = _strcpy(string, " ");
+		string = _strcpy(string, "");
 		return (string);;
 	}
 

@@ -77,6 +77,7 @@ void start_prompt(general_t *info)
 
 			info->arguments = arguments;
 			info->buffer = buff;
+			analyze_patterns(info, arguments);
 			analyze(arguments, info, buff);
 
 			free_memory_pp((void *) arguments);

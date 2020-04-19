@@ -34,7 +34,10 @@ char *replace_value(general_t *info, int *index, char *string)
 
 	value = replacement(info, index, string + i);
 	if (value == NULL)
-		return (string);
+	{
+		string = _strcpy(string, " ");
+		return (string);;
+	}
 
 	old_s = _strlen(string);
 	new_s = _strlen(value) + 1;

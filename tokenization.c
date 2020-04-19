@@ -21,6 +21,8 @@ char **split_words(char *line, const char *sep)
 		token = strtok(line, sep);
 		while (token)
 		{
+			if (token[0] == '#')
+				break;
 			tmp = _realloc(words, old_size, (new_size + 1) * sizeof(char *));
 			old_size = (new_size + 1) * sizeof(char *);
 			if (tmp == NULL)

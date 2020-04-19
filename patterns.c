@@ -8,19 +8,7 @@ void analyze_patterns(general_t *info, char **arguments)
 	int i;
 
 	for (i = 0; arguments[i] != NULL; i++)
-	{
-		if (arguments[i][0] == '#')
-		{
-			free_memory_p(arguments[i]);
-			arguments[i] = NULL;
-			for (;arguments[i] != NULL; i++)
-				free_memory_p(arguments[i]);
-
-			break;
-		}
-
 		arguments[i] = pattern_handler(info, arguments[i]);
-	}
 }
 
 char *pattern_handler(general_t *info, char *string)

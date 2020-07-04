@@ -11,7 +11,7 @@ header_pages:
   - fork.md
   - example.md
 
-style: dark
+style: hacker
 
 footer: 'follow us on <a href="https://github.com/davixcky/simple_shell/" target="_blank">github</a>'
 
